@@ -1,0 +1,18 @@
+﻿<Window x:Class="PracticFeb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticFeb"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="Aquamarine" Height="450" Width="800">
+    <Grid>
+        <Button FontSize="15" Name="windowreg" Content="Окно регистрации" HorizontalAlignment="Left" Margin="637,333,0,0" VerticalAlignment="Top" Height="37" Width="142" Click="windowreg_Click"/>
+        <TextBlock FontSize="35" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top"/>
+        <TextBox  Name="loginnn" FontSize="20" HorizontalAlignment="Left" Margin="310,158,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="234" Height="36"/>
+        <TextBox  Name="passsss" FontSize="20" HorizontalAlignment="Left" Margin="310,216,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="234" Height="37"/>
+        <TextBlock FontSize="27" HorizontalAlignment="Left" Margin="229,158,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top"/>
+        <TextBlock FontSize="27" HorizontalAlignment="Left" Margin="212,216,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top"/>
+        <Button Name="avtoriz" FontSize="20" Content="Авторизироваться " HorizontalAlignment="Left" Margin="309,339,0,0" VerticalAlignment="Top" Width="205" Click="avtoriz_Click"/>
+    </Grid>
+</Window>
